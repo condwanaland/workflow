@@ -1,9 +1,11 @@
 Package: workflow
 Type: Package
 Title: Structure your R analysis as a fully reproducible project
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Version: 0.1.9000
+Authors@R: c(
+  person("Conor", "Neilson", email = condwanaland@gmail.com, role = c("aut", "cre"))
+  person("Alistair", "Dunn", role = "aut"))
+Maintainer: Conor Neilson <condwanaland@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
