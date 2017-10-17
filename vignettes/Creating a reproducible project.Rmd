@@ -1,19 +1,19 @@
 ---
-title: "Vignette Title"
-author: "Vignette Author"
+title: "Creating a reproducible project"
+author: "Conor Neilson"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Creating a reproducible project}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
+## Justification
 
-- Never uses retina figures
-- Has a smaller default figure size
-- Uses a custom CSS stylesheet instead of the default Twitter Bootstrap style
+A most basic tenet of science is the idea that methods must be written so that anyone reading your work should be able to completely reproduce your project and get the same results. 
+
+While this doctrine is generally accepted by all, in practise, this does not usually translate to having fully reproducible statistical analyses and code. Particularly in the life and physical sciences, where statistics is a necessity of the job rather than an area of interest, in can be difficult for the lone researcher or grad student to adopt best practises in code reproducibility.
 
 ## Vignette Info
 
