@@ -3,7 +3,7 @@ Type: Package
 Title: Structure your R analysis as a fully reproducible project
 Version: 0.1.0.9000
 Authors@R: c(
-  person("Conor", "Neilson", email = condwanaland@gmail.com, role = c("aut", "cre"))
+  person("Conor", "Neilson", email = "condwanaland@gmail.com", role = c("aut", "cre")),
   person("Alistair", "Dunn", role = "aut"))
 Maintainer: Conor Neilson <condwanaland@gmail.com>
 Description: More about what it does (maybe more than one line)
