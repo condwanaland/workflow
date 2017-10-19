@@ -1,5 +1,7 @@
 #' make_filename
 #'
+#' @author Alistair Dunn
+#'
 #' @param file
 #' @param path
 #' @param add.terminal

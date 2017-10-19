@@ -1,3 +1,11 @@
+#' Title
+#'
+#' @param base
+#'
+#' @return
+#' @export
+#'
+#' @examples
 assign.directories<-function(base="") {
   DIR<-list()
   # base directory
