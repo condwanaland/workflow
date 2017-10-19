@@ -1,10 +1,10 @@
 ---
-title: "Creating a reproducible project"
+title: "Creating a structured and reproducible project"
 author: "Conor Neilson"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Creating a reproducible project}
+  %\VignetteIndexEntry{Creating a structured and reproducible project}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -14,6 +14,17 @@ vignette: >
 A most basic tenet of science is the idea that methods must be written so that anyone reading your work should be able to completely reproduce your project and get the same results. 
 
 While this doctrine is generally accepted by all, in practise, this does not usually translate to having fully reproducible statistical analyses and code. Particularly in the life and physical sciences, where statistics is a necessity of the job rather than an area of interest, in can be difficult for the lone researcher or grad student to adopt best practises in code reproducibility.
+
+While R is an excellent environment for statistics and data analysis, the reality is that for many academics and grad students outside of Computer Science, R is generally adopted during a period of high stress, where a thesis deadline is rapidly looming, and the only thought in the users mind is to **get that p-value**. Furthermore, a new user of R is faced with far more pressing challenges than writing clean code: setting a working directory, reading in data, how to write a model. The unfortunate end of this is that for many people, having reproducible analyses simply isn't a priority. 
+
+However, tools to facilitate reproducible work are always appearing, and while many researchers find it difficult to prioritise reproducible code, they also understand that it is an important step in the workflow of research. 
+
+
+## Primary differences
+
+How its different - what its goals are
+
+
 
 ## Vignette Info
 
