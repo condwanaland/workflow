@@ -12,3 +12,6 @@ make_filename(file = "", path = "", add.terminal = F)
 \description{
 make_filename
 }
+\author{
+Alistair Dunn
+}
