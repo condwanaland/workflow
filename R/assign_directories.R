@@ -11,15 +11,15 @@ assign.directories<-function(base="") {
   # base directory
   DIR[["Base"]]<-base
   # R directory
-  DIR[["R"]]<-make.filename("R",DIR[["Base"]],T)
+  DIR[["R"]]<-make_filename("R",DIR[["Base"]],T)
   # R functions
-  DIR[["Functions"]]<-make.filename("Functions",DIR[["R"]],T)
+  DIR[["Functions"]]<-make_filename("Functions",DIR[["R"]],T)
   # Scripts
-  DIR[["Scripts"]]<-make.filename("Scripts", DIR[["R"]],T)
+  DIR[["Scripts"]]<-make_filename("Scripts", DIR[["R"]],T)
   # Raw Data
-  DIR[["Data"]]<-make.filename("Data",DIR[["Base"]],T)
+  DIR[["Data"]]<-make_filename("Data",DIR[["Base"]],T)
   # Figures
-  DIR[["Figures"]]<-make.filename("Figures",DIR[["Base"]],T)
+  DIR[["Figures"]]<-make_filename("Figures",DIR[["Base"]],T)
 
   return(DIR)
 }
