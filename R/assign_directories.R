@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-assign.directories<-function(base="") {
+assign_directories<-function(base="") {
   DIR<-list()
   # base directory
   DIR[["Base"]]<-base
