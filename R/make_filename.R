@@ -1,6 +1,6 @@
 #' make_filename
 #'
-#' @author Alistair Dunn
+#' @author Alistair Dunn, Conor Neilson
 #'
 #' @param file
 #' @param path
@@ -13,12 +13,12 @@
 make_filename <- function(file="", path="", add.terminal = F) {
   if(path != "") {
     plc <- substring(path, nchar(path))
-    if(!(plc == "\\" | plc == "/")) path <- paste(path, "\\", sep = "")
+    if(!(plc == "\\" | plc == "/")) path <- paste(path, "/", sep = "")
   }
   filename <- paste(path, file, sep = "")
   if(add.terminal == T) {
     plc <- substring(filename, nchar(filename))
-    if(!(plc == "\\" | plc == "/")) filename <- paste(filename, "\\", sep = "")
+    if(!(plc == "\\" | plc == "/")) filename <- paste(filename, "/", sep = "")
   }
   return(filename)
 }
