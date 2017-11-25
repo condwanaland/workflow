@@ -13,5 +13,5 @@ make_filename(file = "", path = "", add.terminal = F)
 make_filename
 }
 \author{
-Alistair Dunn
+Alistair Dunn, Conor Neilson
 }
