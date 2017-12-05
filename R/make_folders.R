@@ -3,9 +3,13 @@
 #' Creates the folder structure needed for other functions to run
 #'
 #' @return
-#'
+#' @keywords internal
+#' @noRd
 #'
 #' @examples
+#' \dontrun{
+#' make_folders()
+#' }
 make_folders <- function() {
   dir.create("R")
   dir.create("Data")

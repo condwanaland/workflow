@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param base
+#' @param base The root directory of your project
 #'
 #' @return
 #' @export

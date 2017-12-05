@@ -6,8 +6,11 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' start_project()
+#' }
 start_project <- function() {
   current_dir <- getwd()
   make_folders()
-  DIR <<- assign_directories(base = current_dir)
+  file.edit("templates/00-init.R")
 }

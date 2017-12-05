@@ -2,9 +2,9 @@
 #'
 #' @author Alistair Dunn, Conor Neilson
 #'
-#' @param file
-#' @param path
-#' @param add.terminal
+#' @param file Name of the file you wish to read/write
+#' @param path A element of the DIR list (i.e., DIR$Data)
+#' @param add.terminal Logical, defaults to F. Should never be changed
 #'
 #' @return
 #' @export

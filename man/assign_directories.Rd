@@ -7,7 +7,7 @@
 assign_directories(base = "")
 }
 \arguments{
-\item{base}{}
+\item{base}{The root directory of your project}
 }
 \description{
 Title

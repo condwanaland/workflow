@@ -7,7 +7,11 @@
 make_filename(file = "", path = "", add.terminal = F)
 }
 \arguments{
-\item{add.terminal}{}
+\item{file}{Name of the file you wish to read/write}
+
+\item{path}{A element of the DIR list (i.e., DIR$Data)}
+
+\item{add.terminal}{Logical, defaults to F. Should never be changed}
 }
 \description{
 make_filename
