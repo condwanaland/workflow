@@ -10,7 +10,6 @@
 #' start_project()
 #' }
 start_project <- function() {
-  current_dir <- getwd()
   make_folders()
   file.edit("templates/00-init.R")
 }
