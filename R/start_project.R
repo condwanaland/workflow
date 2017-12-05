@@ -11,5 +11,5 @@
 #' }
 start_project <- function() {
   make_folders()
-  file.edit("templates/00-init.R")
+  utils::file.edit("templates/00-init.R")
 }
