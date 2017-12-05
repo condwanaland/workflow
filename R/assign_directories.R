@@ -2,10 +2,13 @@
 #'
 #' @param base The root directory of your project
 #'
-#' @return
+#' @return DIR, a list containing the filenames of your directories
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' DIR <- assign_directories(base = "your working directory")
+#' }
 assign_directories<-function(base="") {
   DIR<-list()
   # base directory

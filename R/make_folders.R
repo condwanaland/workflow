@@ -2,7 +2,7 @@
 #'
 #' Creates the folder structure needed for other functions to run
 #'
-#' @return
+#' @return A set of folders in your root directory
 #' @keywords internal
 #' @noRd
 #'

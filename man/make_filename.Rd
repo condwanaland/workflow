@@ -13,8 +13,17 @@ make_filename(file = "", path = "", add.terminal = F)
 
 \item{add.terminal}{Logical, defaults to F. Should never be changed}
 }
+\value{
+A complete filename that can be passed with DIR$xxx
+}
 \description{
-make_filename
+Note, make_filename is a useless function in isolation. The usefullness of it comes with being combined with assign_directories and start_project. I recommend reading the vignette to get started.
+}
+\examples{
+\dontrun{
+data(iris)
+write.csv(iris, make_filename("myiris.csv"), DIR$Data)
+}
 }
 \author{
 Alistair Dunn, Conor Neilson

@@ -9,6 +9,14 @@ assign_directories(base = "")
 \arguments{
 \item{base}{The root directory of your project}
 }
+\value{
+DIR, a list containing the filenames of your directories
+}
 \description{
 Title
+}
+\examples{
+\dontrun{
+DIR <- assign_directories(base = "your working directory")
+}
 }
