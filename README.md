@@ -1,6 +1,6 @@
 # workflow
 
-workflow is a new R package I am working based on some ideas I have had for contructing reproducible workflows. I intend to work on it where I have bits and pieces of space time.
+workflow is a new R package I am working based on some ideas I have had for contructing reproducible workflows. At this stage, the code of workflow is complete, but the vignette is not. I aim to finish this soon, which should make the goal of workflow more clear.
 
 The goal of workflow is to provide a consise, abstracted, and powerful platform to run an R analysis as a fully reproducible project.
 
