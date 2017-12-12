@@ -12,7 +12,9 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Depends: utils
+Imports: utils,
+    here
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
+Remotes: krlmlr/here
