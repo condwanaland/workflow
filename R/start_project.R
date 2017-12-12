@@ -11,5 +11,5 @@
 #' }
 start_project <- function() {
   make_folders()
-  utils::file.edit("inst/00-init.R")
+  utils::file.edit("00-init.R")
 }
