@@ -11,5 +11,5 @@
 #' }
 start_project <- function() {
   make_folders()
-  file.edit(system.file("base_template", "00-init.R", package = "workflow"))
+  utils::file.edit(system.file("base_template", "00-init.R", package = "workflow"))
 }
