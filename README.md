@@ -1,5 +1,9 @@
 # workflow
 
+<!-- badges: start -->
+[![Lifecycle: archived](https://img.shields.io/badge/lifecycle-archived-red.svg)](https://www.tidyverse.org/lifecycle/#archived)
+<!-- badges: end -->
+
 workflow is a new R package I am working based on some ideas I have had for contructing reproducible workflows. At this stage, the code of workflow is complete, but the vignette is not. I aim to finish this soon, which should make the goal of workflow more clear.
 
 The goal of workflow is to provide a consise, abstracted, and powerful platform to run an R analysis as a fully reproducible project.
